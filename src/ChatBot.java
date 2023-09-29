@@ -15,7 +15,9 @@ public class ChatBot {
         System.out.println("Hello, " + yourName + " my name is " + name); // name is an instance variable
         System.out.println("and I am a chat bot! How are you today?");
     }
-
+    public void funfact(String yourName){
+        System.out.println("Hello, " + yourName + " ,Did you know most deaths are caused by dying?");
+    }
     // method that prints the weather
     public void weather() {
         System.out.println("I actually don't know much about the weather! Ha ha!");
@@ -38,6 +40,10 @@ public class ChatBot {
     // method that adds and returns the sum of three numbers
     public int addNumbers(int num1, int num2, int num3) {
         return num1 + num2 + num3;
+    }
+
+    public int timeNumbers(int num1, int num2, int num3){
+        return num1*num2*num3;
     }
 
     // method that RETURNS a goodbye message as a String -- note that this method does not print
