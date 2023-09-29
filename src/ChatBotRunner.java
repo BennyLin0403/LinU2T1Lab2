@@ -15,5 +15,6 @@ public class ChatBotRunner {
         System.out.println("The sum is " + sum);
         String bye =    debbie.goodbye();
         System.out.println(bye);
+        System.out.println("hi");
     }
 }
